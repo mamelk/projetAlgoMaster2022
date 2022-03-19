@@ -24,10 +24,11 @@ Finfonction
 # QUESTION 2: tableau trié
 
 Fonction tableau_trie(tab1 : Reel, tab2 : Reel) : *Reel
-    Reel tab3[longueur(tab1)+longueur(tab2)];
+    Reel tab3[];
     Entier i, x, p;
 
     DEBUT
+        Redim tab3[longueur(tab1)+longueur(tab2)];
         # RECUPERATION DES ELEMENTS DU PREMIERS TABLEAUX
         Pour i = 0 a longueur(tab1)-1 faire
             tab3[i] = tab1[i];
