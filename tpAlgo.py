@@ -49,7 +49,7 @@ Fonction tableau_trie(tab1 : Reel, tab2 : Reel) : *Reel
                 Finsi
             Finpour
         Finpour
-        retourne *tab3;
+        Retourner *tab3;
 Finfonction
 
 # COMPLEXITE : complexité quadratique
